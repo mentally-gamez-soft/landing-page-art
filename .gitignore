@@ -192,3 +192,22 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+.venv.venv*
+.venv*
+
+.vscode
+.vs
+
+
+
+.env.dev
+.env.staging
+.env.prod 
+.env.keys
+.flaskenv*
+# !.env.project
+!.env.vault
+
+# ignore any secrets
+secrets
